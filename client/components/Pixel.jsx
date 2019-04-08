@@ -1,4 +1,5 @@
 import React from 'react'
+import { genericTypeAnnotation } from '@babel/types';
 
 class Pixel extends React.Component {
   constructor () {
@@ -26,9 +27,19 @@ class Pixel extends React.Component {
     })
   }
 
+  hoverHandler = evt => {
+    this.setState({
+      style: {
+        height: '90px',
+        width: '90px',
+        backgroundColor: '#82E0AA'
+      }
+    })
+  }
+
   render () {
     return (
-      <div style={this.state.style} onClick={this.clickHandler}></div>
+      <div style={this.state.style} onClick={this.clickHandler} onMouseEnter={this.hoverHandler}></div>
     )
   }
 }
