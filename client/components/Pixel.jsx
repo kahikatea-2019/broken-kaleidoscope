@@ -1,22 +1,29 @@
 import React from 'react'
 
+const randomHexColor = () =>
+  `#${Math.floor(Math.random() * 0x1000000).toString(16).padStart(6, 0)}`
 
+  // clickHandler = evt => {
+  //   this.setState({
+  //     // ... update style here ...
+  //   })
+  // }
 
 class Pixel extends React.Component {
   constructor () {
     super ()
     this.state = {
-      style = {
+      style: {
         height: '50px',
         width: '50px',
-        backgroundColor: 'black'
+        backgroundColor: randomHexColor()
       }
     }
   }
-  
+
   render () {
     return (
-      <div {this.state.style}>
+      <div style={this.state.style}>
       </div>
     )
   }
