@@ -1,14 +1,14 @@
 import React from 'react'
 
 const randomHexColor = () =>
-  `#${Math.floor(Math.random() * 0x1000000).toString(16).padStart(6, 0)}`
+  `#${Math.floor(Math.random() * 0x500000).toString(16).padStart(6, 0)}`
 
 class Pixel extends React.Component {
 
   state = {
     style: {
-      height: '4px',
-      width: '4px',
+      height: '50px',
+      width: '50px',
       backgroundColor: randomHexColor()
     }
   }
@@ -16,16 +16,31 @@ class Pixel extends React.Component {
   clickHandler = evt => {
     this.setState({
       style: { 
-        height: '4px',
-        width: '4px',
+        height: '50px',
+        width: '50px',
         backgroundColor: randomHexColor() }
     })
+  }
+  koolaid = evt => {
+    this.setState({
+      style: {
+        height: '50px',
+        width: '50px',
+        backgroundColor: 'violet'
+      }
+    })
+  }
+
+  timingisEverything = () => {
+
   }
 
   render () {
     return (
-      <div style={this.state.style} onClick={this.clickHandler}>
-      </div>
+      <div style={this.state.style} onClick={setInterval(this.clickHandler, 2000)}></div>
+      
+      // <div style={this.state.style} onClick={this.clickHandler} onMouseEnter={this.koolaid}>
+      // </div>
     )
   }
 }
