@@ -10,8 +10,8 @@ class Pixel extends React.Component {
     super()
     this.state = {
       style: {
-        height: 50,
-        width: 50,
+        height: 3,
+        width: 3,
         backgroundColor: randomHexColor()
       }
   
@@ -21,8 +21,8 @@ class Pixel extends React.Component {
     evt.preventDefault()
     this.setState({
       style: {
-        height: 50,
-        width: 50,
+        height: 3,
+        width: 3,
         backgroundColor: 'black'
       }
     })
@@ -30,8 +30,8 @@ class Pixel extends React.Component {
   clickHandler = evt => {
     this.setState({
       style: {
-        height: 50,
-        width: 50,
+        height: 3,
+        width: 3,
         backgroundColor: randomHexColor()
       }
     })
@@ -40,8 +40,8 @@ class Pixel extends React.Component {
   onMouseEnter = evt => {
     this.setState({
       style: {
-        height: 50,
-        width: 50,
+        height: 3,
+        width: 3,
         backgroundColor: 'green'
       }
     })
@@ -49,8 +49,8 @@ class Pixel extends React.Component {
   onDoubleClick= evt => {
     this.setState({
       style: {
-        height: 50,
-        width: 50,
+        height: 3,
+        width: 3,
         backgroundColor: 'white'
       }
     })
@@ -58,8 +58,8 @@ class Pixel extends React.Component {
   onDragEnter= evt => {
     this.setState({
       style: {
-        height: 50,
-        width: 50,
+        height: 3,
+        width: 3,
         backgroundColor: 'yellow'
       }
     })
