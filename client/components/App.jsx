@@ -7,6 +7,31 @@ const App = () => {
     <React.Fragment>
       <div>React development has begun!</div>
       <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
     </React.Fragment>
   )
 }
