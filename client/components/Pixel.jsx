@@ -7,7 +7,7 @@ class Pixel extends React.Component {
       style: {
         height: 30,
         width: 30,
-        backgroundColor: 'rgb(102, 204, 255)'
+        backgroundColor: this.randomHexColor()
       }
     }
   }
