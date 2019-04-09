@@ -1,36 +1,80 @@
 import React from 'react'
 
-// function Pixel (props) {
-//   return (
-//     <React.Fragment>
-//     <div> <div>
-//     </React.Fragment>
-//   )
-// }
+const randomHexColor = () =>
+  `#${Math.floor(Math.random() * 0x1000000).toString(16).padStart(6, 0)}`
 
 class Pixel extends React.Component {
   constructor () {
     super()
     this.state = {
       style: {
-        height: '50px',
-        width: '50px',
-        backgroundColor: 'Blue'
+        height: '30px',
+        width: '30px',
+        backgroundColor: randomHexColor()
       }
     }
   }
 
-  const randomHexColor = () =>
-  `#${Math.floor(Math.random() * 0x1000000).toString(16).padStart(6, 0)}`
-  
-  render () {
-    return (
-      <React.Fragment>
-        <div style = {this.state.style}>
-        </div>
-      </React.Fragment>
-    )
-  }
+clickHandler = (evt) => {
+  this.setState({
+    style: {
+      height: '30px',
+      width: '30px',
+      backgroundColor: randomHexColor()
+    }
+  })
+}
+
+turnColor = evt => {
+  this.setState({
+    style: {
+      height: '30px',
+      width: '30px',
+      backgroundColor: 'green'
+    }
+  })
+}
+
+ContextMenuHandler = evt => {
+  evt.preventDefault()
+  this.setState({
+    style: {
+      height: '30px',
+      width: '30px',
+      backgroundColor: 'black'
+    }
+  })
+}
+
+doubleClickHandler = evt => {
+  this.setState({
+    style: {
+      height: '30px',
+      width: '30px',
+      backgroundColor: 'white'
+    }
+  })
+}
+
+dragEnter = evt => {
+  this.setState({
+    style: {
+      height: '30px',
+      width: '30px',
+      backgroundColor: 'yellow'
+    }
+  })
+}
+
+render () {
+  return (
+    <React.Fragment>
+      <div style={this.state.style} onClick={this.clickHandler} onMouseEnter={this.turnColor} onDoubleClick={this.doubleClickHandler}
+        onDragEnter={this.dragEnter} onContextMenu={this.ContextMenuHandler}>
+      </div>
+    </React.Fragment>
+  )
+}
 }
 
 export default Pixel
