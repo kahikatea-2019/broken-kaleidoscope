@@ -17,8 +17,17 @@ class Pixel extends React.Component {
   
     }
   }
-
-  colorChange = () => {
+  onContextMenu = evt => {
+    evt.preventDefault()
+    this.setState({
+      style: {
+        height: 50,
+        width: 50,
+        backgroundColor: 'black'
+      }
+    })
+  }
+  clickHandler = evt => {
     this.setState({
       style: {
         height: 50,
@@ -27,9 +36,38 @@ class Pixel extends React.Component {
       }
     })
   }
+
+  onMouseEnter = evt => {
+    this.setState({
+      style: {
+        height: 50,
+        width: 50,
+        backgroundColor: 'green'
+      }
+    })
+  }
+  onDoubleClick= evt => {
+    this.setState({
+      style: {
+        height: 50,
+        width: 50,
+        backgroundColor: 'white'
+      }
+    })
+  }
+  onDragEnter= evt => {
+    this.setState({
+      style: {
+        height: 50,
+        width: 50,
+        backgroundColor: 'yellow'
+      }
+    })
+  }
+
   render () {
     return (
-      <div style={this.state.style} onClick={this.colorChange}></div>
+      <div style={this.state.style} onClick={this.clickHandler} onContextMenu ={this.onContextMenu} onMouseOver ={this.onMouseEnter} onDoubleClick={this.onDoubleClick} onDragEnter ={this.onDragEnter}></div>
 
     )
   }

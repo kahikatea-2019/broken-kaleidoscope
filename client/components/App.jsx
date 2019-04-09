@@ -5,8 +5,7 @@ import Pixel from './Pixel'
 const App = () => {
   return (
     <React.Fragment>
-      <div></div>
-
+    
       <Pixel />
       <Pixel />
       <Pixel />
