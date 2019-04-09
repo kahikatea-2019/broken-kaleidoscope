@@ -11,6 +11,16 @@ class Pixel extends React.Component {
       }
     }
   }
+
+  clickHandler = event => {
+    this.setState({
+      style: {
+        height: 30,
+        width: 30,
+        backgroundColor: this.randomHexColor()
+      }
+    })
+  }
   randomHexColor = () =>
     `#${Math.floor(Math.random() * 0x1000000).toString(16).padStart(6, 0)}`
 
@@ -23,7 +33,8 @@ class Pixel extends React.Component {
   render () {
     return (
       <React.Fragment>
-        <div style={this.state.style}>
+        <div style={this.state.style}
+          onDragOver={this.clickHandler}>
         </div>
 
       </React.Fragment>
