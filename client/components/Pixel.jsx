@@ -34,7 +34,7 @@ class Pixel extends React.Component {
     return (
       <React.Fragment>
         <div style={this.state.style}
-          onDragOver={this.clickHandler}>
+          onMouseEnter={this.clickHandler}>
         </div>
 
       </React.Fragment>
