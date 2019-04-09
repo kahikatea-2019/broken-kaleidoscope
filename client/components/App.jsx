@@ -5,7 +5,8 @@ import Pixel from './Pixel'
 const App = () => {
   return (
     <React.Fragment>
-      <div>React development has begun!</div>
+      <div></div>
+
       <Pixel />
       <Pixel />
       <Pixel />
@@ -15,16 +16,284 @@ const App = () => {
       <Pixel />
       <Pixel />
       <Pixel />
-      <Pixel /><Pixel />
-      <Pixel />
-      <Pixel />
-      <Pixel />
-      <Pixel /><Pixel />
       <Pixel />
       <Pixel />
       <Pixel />
       <Pixel />
-     
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      <Pixel />
+      
+
     </React.Fragment>
   )
 }
