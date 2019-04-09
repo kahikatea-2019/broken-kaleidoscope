@@ -16,23 +16,64 @@ class Pixel extends React.Component {
   randomHexColor = () =>
     `#${Math.floor(Math.random() * 0x1000000).toString(16).padStart(6, 0)}`
 
-  clickHandler = evt => {
+  onHover = evt => {
     this.setState({
       style: {
         height: '80px',
         width: '80px',
-        backgroundColor: this.randomHexColor()
+        backgroundColor: 'green'
       }
     })
   }
 
-  render () {
-    return (
-      <div style={this.state.style} onClick={this.clickHandler}
+rightClickBlack = evt => {
+  this.setState({
+    style: {
+      height: '80px',
+      width: '80px',
+      backgroundColor: 'black'
 
-      ></div>
-    )
-  }
+    }
+  })
+}
+
+doubleClick = evt => {
+  this.setState({
+    style: {
+      height: '80px',
+      width: '80px',
+      backgroundColor: 'white'
+
+    }
+  })
+}
+
+yellowDrag = evt => {
+  this.setState({
+    style: {
+      height: '80px',
+      width: '80px',
+      backgroundColor: 'yellow'
+    }
+  })
+}
+
+clickHandler = evt => {
+  this.setState({
+    style: {
+      height: '80px',
+      width: '80px',
+      backgroundColor: this.randomHexColor()
+    }
+  })
+}
+
+render () {
+  return (
+    <div style={this.state.style} onClick={this.clickHandler} onMouseEnter={this.onHover} onContextMenu={this.rightClickBlack} onDoubleClick={this.doubleClick} onDragEnter={this.yellowDrag}
+    ></div>
+  )
+}
 }
 
 export default Pixel
