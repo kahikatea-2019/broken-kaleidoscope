@@ -7,8 +7,8 @@ class Pixel extends React.Component {
 
     this.state = {
       style: {
-        height: '90px',
-        width: '90px',
+        height: '3px',
+        width: '3px',
         backgroundColor: this.randomHexColor()
       }
     }
@@ -20,8 +20,8 @@ class Pixel extends React.Component {
   clickHandler = evt => {
     this.setState({
       style: {
-        height: '90px',
-        width: '90px',
+        height: '3px',
+        width: '3px',
         backgroundColor: this.randomHexColor()
       }
     })
@@ -30,8 +30,8 @@ class Pixel extends React.Component {
   hoverHandler = evt => {
     this.setState({
       style: {
-        height: '90px',
-        width: '90px',
+        height: '3px',
+        width: '3px',
         backgroundColor: '#82E0AA'
       }
     })
@@ -41,8 +41,8 @@ class Pixel extends React.Component {
     evt.preventDefault()
     this.setState({
       style: {
-        height: '90px',
-        width: '90px',
+        height: '3px',
+        width: '3px',
         backgroundColor: '#17202A'
       }
     })
@@ -52,8 +52,8 @@ class Pixel extends React.Component {
     evt.preventDefault()
     this.setState({
       style: {
-        height: '90px',
-        width: '90px',
+        height: '3px',
+        width: '3px',
         backgroundColor: '#fff'
       }
     })
