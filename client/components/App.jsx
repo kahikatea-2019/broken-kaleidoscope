@@ -3,7 +3,36 @@ import Pixel from './Pixel'
 
 const App = () => {
   return (
-    <Pixel></Pixel>
+    <React.Fragment>
+      <Pixel></Pixel>
+      <Pixel></Pixel>
+      <Pixel></Pixel>
+      <Pixel></Pixel>
+      <Pixel></Pixel>
+      <Pixel></Pixel>
+      <Pixel></Pixel>
+      <Pixel></Pixel>
+      <Pixel></Pixel>
+      <Pixel></Pixel>
+      <Pixel></Pixel>
+      <Pixel></Pixel>
+      <Pixel></Pixel>
+      <Pixel></Pixel>
+      <Pixel></Pixel>
+      <Pixel></Pixel>
+      <Pixel></Pixel>
+      <Pixel></Pixel>
+      <Pixel></Pixel>
+      <Pixel></Pixel>
+      <Pixel></Pixel>
+      <Pixel></Pixel>
+      <Pixel></Pixel>
+      <Pixel></Pixel>
+      <Pixel></Pixel>
+      <Pixel></Pixel>
+      <Pixel></Pixel>
+      <Pixel></Pixel>
+    </React.Fragment>
   )
 }
 
