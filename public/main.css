@@ -4,11 +4,16 @@ html, body, .viewport {
   margin: 0;
 }
 
-#app {
-  width: 100%;
-}
-
 div {
   display: flex;
   flex-wrap: wrap;
+}
+
+h3 {
+  width: 100vw;
+  text-align: center;
+}
+
+#app {
+  width: 100%;
 }
